@@ -64,6 +64,7 @@ Dashboard Features
 • Shipping performance by method and region 
 Project Structure
 superstore-sales-analysis/
+
 │
 ├── 01_data_raw/
 ├── 02_clean_data/
