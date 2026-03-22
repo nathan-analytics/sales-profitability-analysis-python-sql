@@ -1,6 +1,12 @@
 ### Superstore Sales & Profitability Analysis
 SQL | Python | Power BI
 
+<img width="1413" height="793" alt="Executive Order" src="https://github.com/user-attachments/assets/ec49f419-f019-4a8b-b1a5-e7be1e541a95" />
+
+<img width="1415" height="795" alt="Product   Profitability Analysis" src="https://github.com/user-attachments/assets/1c26dbf3-d090-4719-82e0-bdcf4dda3ff2" />
+
+<img width="1418" height="794" alt="Customer   Operations" src="https://github.com/user-attachments/assets/6a89a1b2-6fa4-4b8d-8469-c6d76dbca646" />
+
 ### Project Overview
 This project analyzes retail sales data to evaluate business performance, identify profitability drivers, and uncover opportunities for improvement.
 
