@@ -1,10 +1,9 @@
-### Superstore Sales & Profitability Analysis
+# Superstore Sales & Profitability Analysis
 SQL | Python | Power BI
 
+## Dashboard Preview
 <img width="1413" height="793" alt="Executive Order" src="https://github.com/user-attachments/assets/ec49f419-f019-4a8b-b1a5-e7be1e541a95" />
-
 <img width="1415" height="795" alt="Product   Profitability Analysis" src="https://github.com/user-attachments/assets/1c26dbf3-d090-4719-82e0-bdcf4dda3ff2" />
-
 <img width="1418" height="794" alt="Customer   Operations" src="https://github.com/user-attachments/assets/6a89a1b2-6fa4-4b8d-8469-c6d76dbca646" />
 
 ### Project Overview
@@ -25,37 +24,32 @@ The dataset contains transactional retail data, including orders, products, cust
  - Converted date fields and handled mixed formats
  - Validated numeric columns (sales, profit, discount)
  - Created new features:
-   • profit_margin
-   • discount_flag
-   • shipping_days
-   • time-based features (year, month)
+   - profit_margin
+   - discount_flag
+   - shipping_days
+   - time-based features (year, month)
 
 2. Data Storage & Transformation (SQL)
  - Loaded cleaned dataset into PostgreSQL
  - Created analytical views for reporting:
-   • overall performance
-   • category and sub-category analysis
-   • regional performance
-   • discount impact
-   • customer analysis
+   - overall performance
+   - category and sub-category analysis
+   - regional performance
+   - discount impact
+   - customer analysis
 
 3. Data Visualization (Power BI)
  - Built a 3-page interactive dashboard:
-   • Executive Overview
-   • Product & Profitability Analysis
-   • Customer & Operational Insights
+   - Executive Overview
+   - Product & Profitability Analysis
+   - Customer & Operational Insights
 
 ### Key Insights
- - Discounting significantly reduces profitability 
- - Discounted orders show a negative average profit margin, indicating that discounting is a major driver of losses across multiple product categories.
- - Certain products consistently generate losses 
- - Several products contribute heavily to negative profit, often associated with high discount levels.
- - Sales performance varies by category 
+ - Discounting significantly reduces profitability, with discounted orders showing a negative average profit margin and driving losses across multiple product categories.
+ - Several products consistently generate negative profit, often associated with higher discount levels.
  - Office Supplies generates the highest order volume, while Technology produces higher revenue per order.
- - Revenue is concentrated in specific segments and regions 
  - The Consumer segment and Central region contribute the largest share of total sales.
- - Shipping performance is consistent across regions 
- - Average shipping times are relatively stable, with standard shipping taking the longest and expedited methods significantly reducing delivery time.
+ - Shipping performance is consistent across regions, with standard shipping taking the longest and expedited methods reducing delivery time.
 
 ### Dashboard Features
  - KPI overview of total sales, profit, and order volume 
@@ -67,14 +61,16 @@ The dataset contains transactional retail data, including orders, products, cust
  - Shipping performance by method and region 
 
 ### Project Structure
+```text
 superstore-sales-analysis/
- - 01_data_raw/
- - 02_clean_data/
- - 03_python/
- - 04_sql/
- - 05_powerbi/
- - 06_screenshots/
- README.md
+├── 01_data_raw/
+├── 02_clean_data/
+├── 03_python/
+├── 04_sql/
+├── 05_powerbi/
+├── 06_screenshots/
+└── README.md
+```
 
 ### How to Use
 1. Open the Power BI dashboard file (.pbix) to explore the visuals 
