@@ -79,3 +79,5 @@ superstore-sales-analysis/
 
 ### Conclusion
 This project demonstrates a complete data analysis workflow, from raw data processing to business insight generation. The findings highlight the impact of discounting on profitability and identify key areas for improving business performance.
+
+This project demonstrates the ability to transform raw data into actionable insights using a full analytics workflow.
