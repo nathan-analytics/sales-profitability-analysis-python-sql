@@ -1,15 +1,20 @@
 Superstore Sales & Profitability Analysis
+
 SQL | Python | Power BI
+
 Project Overview
 This project analyzes retail sales data to evaluate business performance, identify profitability drivers, and uncover opportunities for improvement.
 
 The analysis follows a full data workflow, including data cleaning in Python, storage and transformation in PostgreSQL, and interactive dashboard development in Power BI. The goal was to simulate a real-world analyst workflow and deliver insights that support data-driven decision-making.
+
 Tools & Technologies
 • Python (Pandas, NumPy) – data cleaning and feature engineering 
 • PostgreSQL – data storage, querying, and view creation 
 • Power BI – dashboard development and visualization 
+
 Dataset
 The dataset contains transactional retail data, including orders, products, customers, sales, profit, discounts, and shipping details across multiple regions and segments.
+
 Project Workflow
 1. Data Cleaning (Python)
   - Converted date fields and handled mixed formats
@@ -67,9 +72,11 @@ superstore-sales-analysis/
 ├── 05_powerbi/
 ├── 06_screenshots/
 └── README.md
+
 How to Use
 1. Open the Power BI dashboard file (.pbix) to explore the visuals 
 2. Review SQL scripts for data transformations and views 
 3. Run the Python notebook to reproduce data cleaning steps 
+
 Conclusion
 This project demonstrates a complete data analysis workflow, from raw data processing to business insight generation. The findings highlight the impact of discounting on profitability and identify key areas for improving business performance.
