@@ -19,7 +19,10 @@ Business impact:
 - Supports better product and pricing strategy decisions
 - Provides insight into customer segments driving revenue
 
-## Dashboard Preview
+Dashboard Highlight
+
+A small number of products generate a disproportionate share of total revenue, 
+highlighting both an opportunity to double down on top performers and a risk from over-reliance on a limited product set.
 
 ![Executive Overview](https://github.com/user-attachments/assets/ec49f419-f019-4a8b-b1a5-e7be1e541a95)
 
