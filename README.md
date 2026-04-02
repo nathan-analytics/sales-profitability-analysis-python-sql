@@ -21,12 +21,17 @@ Business impact:
 
 Dashboard Highlight
 
-Several high-revenue products operate at a loss due to heavy discounting, 
-revealing that strong sales performance does not always translate to profitability.
+Sales are strong overall, but profit margins are inconsistent, indicating that revenue growth is being driven in part by discounting rather than sustainable profitability.
 
 ![Executive Overview](https://github.com/user-attachments/assets/ec49f419-f019-4a8b-b1a5-e7be1e541a95)
 
+Several high-revenue products operate at a loss due to heavy discounting, 
+revealing that strong sales performance does not always translate to profitability.
+This highlights the need to balance revenue growth with margin protection.
+
 ![Product Profitability Analysis](https://github.com/user-attachments/assets/1c26dbf3-d090-4719-82e0-bdcf4dda3ff2)
+
+Faster shipping improves delivery time, but profitability is primarily driven by pricing and discount strategy rather than operational efficiency.
 
 ![Customer Operations](https://github.com/user-attachments/assets/6a89a1b2-6fa4-4b8d-8469-c6d76dbca646)
 
