@@ -21,8 +21,8 @@ Business impact:
 
 Dashboard Highlight
 
-A small number of products generate a disproportionate share of total revenue, 
-highlighting both an opportunity to double down on top performers and a risk from over-reliance on a limited product set.
+Several high-revenue products operate at a loss due to heavy discounting, 
+revealing that strong sales performance does not always translate to profitability.
 
 ![Executive Overview](https://github.com/user-attachments/assets/ec49f419-f019-4a8b-b1a5-e7be1e541a95)
 
