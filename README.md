@@ -37,7 +37,8 @@ Faster shipping improves delivery time, but profitability is primarily driven by
 
 ## Case Study
 
-[Sales & Profitability Analysis Case Study](case_study.pdf)
+[Sales & Profitablity Analysis Case Study.pdf](https://github.com/user-attachments/files/26452088/Sales.Profitablity.Analysis.Case.Study.pdf)
+
 
 ## Key Insights
 
