@@ -70,6 +70,16 @@ This project focuses on identifying what actually drives profit, not just sales.
 
 ---
 
+## Data Pipeline
+
+Raw Data (Sales Dataset CSV)  
+→ Python (Data Cleaning, Validation, Feature Engineering)  
+→ PostgreSQL (Data Storage and Modeling)  
+→ SQL (Analytical Views and Profitability Analysis)  
+→ Power BI (Dashboard and Insights)
+
+---
+
 ## Methodology
 
 ### Data Cleaning & Preparation
