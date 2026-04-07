@@ -1,110 +1,103 @@
 # Sales & Profitability Analysis
 
-Analyzed retail sales data using Python, SQL, and Power BI to identify profitability drivers, discount impact, and operational performance.
+End-to-end analysis focused on understanding profitability drivers, not just revenue.
 
-## Project Summary
+---
 
-Evaluated how discounts, product mix, and customer segments impact overall profitability.
+## Project Summary (30 seconds)
 
-Key findings:
-- Discounting significantly reduces profitability and often leads to negative margins
-- Several high-revenue products are unprofitable due to excessive discounting
-- Technology products generate higher revenue per order, while Office Supplies drive volume
-- Sales are concentrated in the Consumer segment and Central region
-- Shipping performance is consistent, with faster methods improving delivery time
+Analyzed sales data using Python, SQL, and Power BI to identify what drives profitability across products, categories, and regions.
 
-Business impact:
-- Highlights the need to control discounting to protect margins
-- Identifies unprofitable products that should be repriced or removed
-- Supports better product and pricing strategy decisions
-- Provides insight into customer segments driving revenue
+Cleaned and transformed data using Python (Pandas), engineered key features such as profit margin and discount flags, and built SQL views for structured analysis.
 
-Dashboard Highlight
+Key findings showed that discounted orders are often unprofitable, certain products consistently lose money, and profitability varies significantly by category and region.
 
-Sales are strong overall, but profit margins are inconsistent, indicating that revenue growth is being driven in part by discounting rather than sustainable profitability.
+This project demonstrates how focusing on profit instead of revenue leads to better business decisions.
 
-![Executive Overview](https://github.com/user-attachments/assets/ec49f419-f019-4a8b-b1a5-e7be1e541a95)
+---
 
-Several high-revenue products operate at a loss due to heavy discounting, 
-revealing that strong sales performance does not always translate to profitability.
-This highlights the need to balance revenue growth with margin protection.
+## Dashboard Preview
 
-![Product Profitability Analysis](https://github.com/user-attachments/assets/1c26dbf3-d090-4719-82e0-bdcf4dda3ff2)
+**Executive Overview**  
+<img width="1413" height="793" alt="Executive Order" src="https://github.com/user-attachments/assets/5e612309-1656-4cea-b29a-d50282c1de2b" />
 
-Faster shipping improves delivery time, but profitability is primarily driven by pricing and discount strategy rather than operational efficiency.
+**Product Profitability Analysis**  
+<img width="1415" height="795" alt="Product   Profitability Analysis" src="https://github.com/user-attachments/assets/55b8a7b6-7eb1-43f6-8f9c-a7be20bb69b2" />
 
-![Customer Operations](https://github.com/user-attachments/assets/6a89a1b2-6fa4-4b8d-8469-c6d76dbca646)
+**Customer & Operational Insights**  
+<img width="1418" height="794" alt="Customer   Operations" src="https://github.com/user-attachments/assets/2e8d22d5-1311-49ac-8167-35f14c58c5b9" />
+
+---
 
 ## Case Study
 
-[Sales & Profitablity Analysis Case Study.pdf](https://github.com/user-attachments/files/26452088/Sales.Profitablity.Analysis.Case.Study.pdf)
+Full breakdown of the business problem, methodology, and recommendations:
 
+[Sales & Profitablity Analysis.pdf](https://github.com/user-attachments/files/26551282/Sales.Profitablity.Analysis.pdf)
+
+---
 
 ## Key Insights
 
-- Discounting is the primary driver of reduced profitability
-- High sales volume does not always translate to profit
-- Certain products consistently generate losses despite strong revenue
-- Profitability varies significantly across categories and regions
-- Faster shipping improves operational efficiency but does not directly impact profit
+- Discounted orders frequently result in negative profit  
+- Some products consistently generate losses  
+- Profitability varies significantly across categories and regions  
+- High revenue does not always mean high profit  
+- Margin analysis is critical for sustainable growth  
 
-## Project Overview
+---
 
-This project simulates a full analytics workflow focused on profitability analysis and business performance.
+## Business Problem
 
-Workflow:
-- Cleaned and transformed raw data using Python
-- Loaded and modeled data in PostgreSQL
-- Created SQL views for structured analysis
-- Built an interactive Power BI dashboard
+Many businesses focus on revenue without fully understanding profitability. This can lead to:
 
-## Data Cleaning & Feature Engineering
+- Selling high-volume but low-margin products  
+- Overusing discounts that erode profit  
+- Poor pricing and product strategy decisions  
 
-- Standardized date formats and validated numeric fields
-- Created key features:
-  - profit_margin
-  - discount_flag
-  - shipping_days
-  - time-based features (year, month)
+This project focuses on identifying what actually drives profit, not just sales.
 
-## SQL Analysis
+---
 
-Created analytical views to support reporting:
-- Overall performance metrics
-- Category and sub-category profitability
-- Regional performance
-- Discount impact analysis
-- Customer-level insights
+## Business Impact
 
-## Dashboard Features
+- Reduce excessive discounting to protect margins  
+- Identify and reprice or remove unprofitable products  
+- Focus on high-margin categories and regions  
+- Improve overall profitability through better pricing strategies  
 
-- KPI overview (sales, profit, orders)
-- Time-series performance trends
-- Profitability by category and product
-- Discount impact on margins
-- Identification of loss-making products
-- Customer and segment insights
-- Shipping performance analysis
+---
 
-## Business Recommendations
+## Methodology
 
-- Limit discounting on low-margin and loss-making products
-- Focus on high-profit categories and products
-- Reprice or remove consistently unprofitable items
-- Optimize discount strategies to balance revenue and profitability
+### Data Cleaning & Preparation
+- Cleaned and validated raw sales data using Python (Pandas)  
+- Standardized formats and handled missing values  
 
-## Tools Used
+### Feature Engineering
+- Created profit margin and discount flags  
+- Calculated key business metrics for analysis  
 
-- Python (Pandas, NumPy)
-- SQL (PostgreSQL)
-- Power BI
+### Data Modeling & SQL
+- Loaded cleaned data into PostgreSQL  
+- Built SQL views for structured analysis and reporting  
 
-## Dataset
+### Visualization
+- Developed Power BI dashboard to analyze profitability trends  
+- Designed visuals to highlight key performance drivers  
 
-Retail sales dataset including orders, products, customers, sales, profit, discounts, and shipping details
+---
+
+## Tech Stack
+
+- Python (Pandas – data cleaning, feature engineering)  
+- PostgreSQL (data modeling, SQL analysis)  
+- Power BI (dashboard development)  
+
+---
 
 ## Project Structure
-
+```
 superstore-sales-analysis/  
 ├── 01_data_raw/  
 ├── 02_clean_data/  
@@ -114,3 +107,19 @@ superstore-sales-analysis/
 ├── 06_screenshots/  
 ├── case_study.pdf  
 └── README.md
+```
+
+---
+
+## What This Project Demonstrates
+
+- Advanced data transformation using Python  
+- Feature engineering for business metrics (profit margin, discounts)  
+- Strong understanding of profitability vs revenue  
+- Ability to deliver insights that directly impact business performance  
+
+---
+
+## Key Takeaway
+
+Revenue alone is not a reliable indicator of success—profitability analysis is essential for making sustainable business decisions.
