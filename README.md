@@ -1,6 +1,6 @@
 # Sales & Profitability Analysis
 
-End-to-end analysis focused on understanding profitability drivers, not just revenue.
+Analyzed sales and profitability to identify how discounting, product mix, and operations impact overall margins.
 
 ---
 
@@ -12,7 +12,9 @@ Cleaned and transformed data using Python (Pandas), engineered key features such
 
 Key findings showed that discounted orders are often unprofitable, certain products consistently lose money, and profitability varies significantly by category and region.
 
-This project demonstrates how focusing on profit instead of revenue leads to better business decisions.
+This project demonstrates how profitability can vary significantly across products, regions, and pricing strategies.
+
+These findings highlight the need for more controlled discounting and product-level pricing optimization.
 
 ---
 
@@ -39,12 +41,12 @@ Full breakdown of the business problem, methodology, and recommendations:
 
 ## Key Insights
 
-- Discounted orders frequently result in negative profit  
+- Discounted orders were frequently unprofitable, indicating pricing strategy was a key driver of margin loss
 - Some products consistently generate losses  
 - Profitability varies significantly across categories and regions  
 - High revenue does not always mean high profit  
 - Margin analysis is critical for sustainable growth  
-
+- These findings highlight the need for more controlled discounting and product-level pricing optimization.
 ---
 
 ## Business Problem
