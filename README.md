@@ -4,7 +4,7 @@ End-to-end analysis focused on understanding profitability drivers, not just rev
 
 ---
 
-## Project Summary (30 seconds)
+## Project Summary 
 
 Analyzed sales data using Python, SQL, and Power BI to identify what drives profitability across products, categories, and regions.
 
