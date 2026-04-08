@@ -108,6 +108,15 @@ Raw Data (Sales Dataset CSV)
 
 ---
 
+## SQL Work
+
+- Loaded cleaned dataset into PostgreSQL for analysis
+- Created views for profitability and product performance
+- Aggregated KPIs including profit, margin, and discount impact
+- Structured data for Power BI reporting
+
+---
+
 ## Project Structure
 ```
 superstore-sales-analysis/  
